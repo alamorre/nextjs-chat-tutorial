@@ -1,4 +1,4 @@
-# NextJS Chat App
+# NextJS Chat Tutorial
 
 <img 
     src="https://raw.githubusercontent.com/alamorre/nextjs-chat-app/main/assets/nextjs-chat-tutorial.png" 
@@ -7,6 +7,10 @@
 />
 
 This project is powered by [Chat Engine](https://chatengine.io).
+
+Video Tutorial is [here](https://chatengine.io).
+
+For the finished version of this project, go to [the last branch]().
 
 ## Setup
 
