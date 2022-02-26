@@ -10,7 +10,7 @@ const Auth = () => {
   const { username, setUsername, secret, setSecret } = useContext(Context);
 
   const router = useRouter();
-
+  
   function onSubmit(e) {
     e.preventDefault();
 
@@ -20,7 +20,7 @@ const Auth = () => {
       .put(
         "https://api.chatengine.io/users/",
         { username, secret },
-        { headers: { "Private-Key": "c2f82e63-9978-4c5c-9c17-8b0dec845dc6" } }
+        { headers: { "Private-Key": "d88a10a0-e37c-4ac8-9fe7-83eda827297b" } }
       )
 
       .then((r) => {
